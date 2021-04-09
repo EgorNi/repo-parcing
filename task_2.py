@@ -15,4 +15,4 @@ def get_weather(key, city):
     return data
 
 
-pprint(get_weather('7481f8ba5950912c7a93e04e03501452', input('enter city name: ')))
+pprint(get_weather('', input('enter city name: ')))
